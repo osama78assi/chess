@@ -1,0 +1,61 @@
+/* This For Header In The Two Gameplay */
+.header {
+    background-image: url("../images/bc.jpg");
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: relative;
+    box-shadow: 0px 14px 15px 0px #545454;
+    z-index: 3;
+}
+.header .undo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header .undo a {
+    text-decoration: none;
+    color: #252420;
+    border: 2px solid #333;
+    background-color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    transition-duration: 0.5s
+}
+.header .undo a:hover{
+    color: #fff;
+    background-color: #252420;
+    border: 2px solid #fff;
+}
+.header .settings {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex: 1;
+}
+.header .settings span {
+    display: inline-block;
+    font-size: 30px;
+    background-color: #fff;
+    color: #252420;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 25px;
+    min-width: 100px;
+    transition-duration: 0.5s;
+    text-align: center;
+}
+.header .settings .start,
+.header .settings .reset{
+    cursor: pointer;
+}
+.header .settings span:hover {
+    background-color: #252420;
+    color: #fff;
+    border: 2px solid #fff;
+}
